@@ -2,6 +2,19 @@ body {
     background-color: #c1e0ff;
 }
 
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
 .navbar {
     flex-flow: row wrap;
 }
@@ -79,6 +92,11 @@ footer {
     .name {
         font-size: 2.3rem;
     }
+
+    .--paragraph-container {
+        padding-top: 8rem !important;
+        padding-bottom: 8rem !important;
+    }
 }
 
 textarea {
@@ -108,11 +126,39 @@ textarea {
 }
 
 .kld--form {
-    @media(max-width: 500px) {
+    @media (max-width: 500px) {
         max-width: 100%;
     }
-    
-    @media(min-width: 540px) {
+
+    @media (min-width: 540px) {
         max-width: 30dvw;
+    }
+}
+
+.--image-slider {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 1rem;
+    background: url("../../assets/img/bg-image.png") no-repeat center/cover;
+    img {
+        min-height: 100%;
+        object-fit: contain;
+    }
+}
+
+.--image-slider > * {
+    scroll-snap-align: center;
+}
+
+.prev-btn,
+.next-btn {
+    width: 7rem;
+    height: 7rem;
+    align-self: center;
+    justify-self: center;
+
+    @media (max-width: 500px) {
+        width: 60px;
+        height: 60px;
     }
 }

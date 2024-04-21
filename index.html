@@ -17,7 +17,7 @@
 <body>
     <div class="site">
         <header class="navbar background-color-primary-light-3 display-flex">
-            <h2 class="site-title text-color-white">CMDiestro</h2>
+            <h2 class="site-title text-color-white">Charles</h2>
             <ul class="display-flex text-color-white">
                 <li><a href="./index.html"
                         class="text-color-white padding-right-half padding-left-half text-hover-yellow">Home</a></li>|
@@ -48,34 +48,114 @@
             <section class="container">
                 <div
                     class="welcome-message display-flex margin-auto margin-bottom-3 max-width-dvw-70 flex-direction-column">
-                    <h1><span class="text-color-secondary-dark-3">Hello</span>
-                        There!</h1>
-                    <div>
-                        <span class="padding-left-3">Welcome</span> to my portfolio. This is where you
-                        will find
-                        information about me, and some of my projects that I did in our ITE 4 subject. The website
-                        include links in the navigation bar that you can open anytime, anywhere, to view some of my
-                        projects and
-                        exercises.
-                    </div>
+                    <h1><span class="text-color-primary-dark-3">Welcome</span><span
+                            class="kld--text-color-error">!</span></h1>
+                    <p>
+                        <span class="padding-left-3">Hey there,</span> and welcome to my portfolio! I'm so excited to
+                        share with you not only my projects from our ITE 4 course, but also a piece of who I am. I've
+                        designed this website to be a breeze to navigate, so you'll find all my work neatly organized in
+                        the navigation bar, accessible from anywhere and at any time.
+                    </p>
                 </div>
-                <section class="portfolio display-flex justify-center">
-                    <div class="porfolio-card-container card display-flex border-radius-large">
+                <section class="kld--margin-top-3 portfolio display-flex justify-center">
+                    <div
+                        class=" porfolio-card-container card kld--background-color-primary-light-2 kld--min-width-percent-100 display-flex border-radius-large">
                         <img class="border-radius-full img" src="./assets/img/charles-manuel-diestro.png"
                             alt="my-portrait">
-                        <div class="margin-auto">
-                            <h1 class="name">Charles Manuel Diestro</h1>
-                            <div class="portfolio-description max-width-dvw-30">
+                        <div class="kld--display-flex kld--flex-direction-column kld--justify-center">
+                            <h1 class="kld--text-color-white name">Charles Manuel Diestro</h1>
+                            <h3 class="kld--text-color-white portfolio-description">
                                 Rising third year student at Filamer Christian University taking up
                                 Bachelor of Science in Information Technology, with career interests in
                                 website development.
-                            </div>
+                            </h3>
                         </div>
                     </div>
                 </section>
             </section>
+            <section class="kld--margin-top-3 kld--background-color-secondary-dark-2">
+                <div
+                    class="kld--container kld--justify-flex-end kld--padding-top-6 kld--padding-bottom-6 --paragraph-container">
+                    <div class="kld--text-color-white">
+                        <span class="kld--font-size-large">Throughout this portfolio, </span> you'll find various
+                        projects demonstrating my passion for technology and growth during the ITE 4 course. Each
+                        project is
+                        a testament to the milestones in my learning journey, showcasing my dedication and commitment to
+                        excellence. From coding
+                        challenges to multimedia presentations, I've invested my best efforts into every endeavor.
+                    </div>
+                    <div class="kld--text-color-white kld--margin-top-2">
+                        So sit back, relax, and dive into the fruits of my hard work and dedication. I can't wait to
+                        share this journey with you
+                        and show you what I've accomplished. Let's embark on this adventure together!
+                    </div>
+                </div>
+            </section>
+            <section class="kld--padding-bottom-3 kld--padding-top-3" style="background-color: #e8f2fd;">
+                <div class="kld--container">
+                    <h1 class="kld--text-align-center">Below are some of my projects!</>
+                        <section class="kld--display-flex">
+                            <div class="kld--display-flex kld--align-items-center button-container">
+                                <button
+                                    class="kld--text-align-center prev-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                    <p class="kld--text-align-center kld--display-flex kld--justify-center">&lt;</p>
+                                </button>
+                            </div>
+                            <div class="kld--card kld--display-flex min-height-dvh-50 --image-slider">
+                                <img src="./assets/img/Screenshot_3.svg" alt="image" srcset="">
+                                <img src="./assets/img/Screenshot_4.svg" alt="image" srcset="">
+                                <img src="./assets/img/Screenshot_5.svg" alt="image" srcset="">
+                                <img src="./assets/img/Screenshot_6.svg" alt="image" srcset="">
+                            </div>
+                            <div class="kld--display-flex kld--align-items-center button-container">
+                                <button
+                                    class="kld--text-align-center next-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                    <p class="kld--text-align-center kld--display-flex kld--justify-center">&gt;</p>
+                                </button>
+                            </div>
+                        </section>
+                </div>
+            </section>
         </main>
+        <footer class="kld--background-color-indigo-light-5">
+            <section class="kld--container kld--padding-2">
+                <h2 class="kld--text-color-white">dsf</h2>
+            </section>
+        </footer>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const prevBtn = document.querySelector(".prev-btn");
+            const nextBtn = document.querySelector(".next-btn");
+            const slider = document.querySelector(".--image-slider");
+            const images = document.querySelectorAll(".--image-slider img");
+
+            let currentIndex = 0;
+
+            // Show the first image when the page loads
+            scrollToIndex(currentIndex);
+
+            prevBtn.addEventListener("click", function () {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                scrollToIndex(currentIndex);
+            });
+
+            nextBtn.addEventListener("click", function () {
+                currentIndex = (currentIndex + 1) % images.length;
+                scrollToIndex(currentIndex);
+            });
+
+            function scrollToIndex(index) {
+                const scrollPosition = images[index].offsetLeft - slider.offsetLeft;
+                slider.scrollTo({
+                    left: scrollPosition,
+                    behavior: "smooth"
+                });
+            }
+        });
+
+    </script>
 </body>
 
 </html>
