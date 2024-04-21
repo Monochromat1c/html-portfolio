@@ -15,138 +15,292 @@
 </head>
 
 <body>
-    <div class="site">
-        <header class="navbar background-color-primary-light-3 display-flex">
-            <h2 class="site-title text-color-white">Charles</h2>
-            <ul class="display-flex text-color-white">
-                <li><a href="./index.html"
-                        class="text-color-white padding-right-half padding-left-half text-hover-yellow">Home</a></li>|
-                <li><a href="./exercises.html"
-                        class="text-color-white padding-right-half padding-left-half text-hover-yellow">Exercises</a>
-                </li>|
-                <li>
-                    <a href="./exercise-10-designs.html"
-                        class="text-color-white padding-right-half padding-left-half text-hover-yellow">Designs</a>
-                </li>|
-                <li>
-                    <a href="./skills.html"
-                        class="text-color-white padding-right-half padding-left-half text-hover-yellow">Skills</a>
-                </li>
-            </ul>
-            <ul class="display-flex kld--align-items-center text-color-white links-end">
-                <li><a href="https://github.com/Monochromat1c"
-                        class="github-link text-color-white padding-right-half padding-left-half text-hover-yellow">Github</a>
-                </li>
-                <div class="divider">|</div>
-                <li><a href="./contact-me.html"
-                        class="contact-link text-color-white padding-right-half padding-left-half text-hover-yellow kld--button-primary kld--padding-button-2 kld--border-radius-large">Contact
-                        Me</a>
-                </li>
-            </ul>
-        </header>
-        <main class="margin-top-3">
-            <section class="container">
-                <div
-                    class="welcome-message display-flex margin-auto margin-bottom-3 max-width-dvw-70 flex-direction-column">
-                    <h1><span class="text-color-primary-dark-3">Welcome</span><span
-                            class="kld--text-color-error">!</span></h1>
-                    <p>
-                        <span class="padding-left-3">Hey there,</span> and welcome to my portfolio! I'm so excited to
-                        share with you not only my projects from our ITE 4 course, but also a piece of who I am. I've
-                        designed this website to be a breeze to navigate, so you'll find all my work neatly organized in
-                        the navigation bar, accessible from anywhere and at any time.
-                    </p>
-                </div>
-                <section class="kld--margin-top-3 portfolio display-flex justify-center">
-                    <div
-                        class=" porfolio-card-container card kld--background-color-primary-light-2 kld--min-width-percent-100 display-flex border-radius-large">
-                        <img class="border-radius-full img" src="./assets/img/charles-manuel-diestro.png"
-                            alt="my-portrait">
-                        <div class="kld--display-flex kld--flex-direction-column kld--justify-center">
-                            <h1 class="kld--text-color-white name">Charles Manuel Diestro</h1>
-                            <h3 class="kld--text-color-white portfolio-description">
-                                Rising third year student at Filamer Christian University taking up
-                                Bachelor of Science in Information Technology, with career interests in
-                                website development.
-                            </h3>
-                        </div>
+    <section class="body">
+        <div class="kld--display-flex  kld--max-width-dvw-100">
+            <div id="sidebar" class="sidebar kld--min-width-dvw-100 kld--min-height-dvh-100" style="background-color: #1c1929;">
+                <header
+                    class="navbar kld--display-flex kld--flex-direction-row kld--justify-space-between kld--align-items-center">
+                    <h1 class="site-title text-color-white">DLR❣️
+                    </h1>
+                    <div>
+                        <input type="checkbox" name="check" id="check" class="checkbox display-none">
+                        <label for="check" class="margin-right-1">
+                            <i class="fa fa-bars border-radius-full font-size-large kld--text-color-white"></i>
+                        </label>
                     </div>
-                </section>
-            </section>
-            <section class="kld--margin-top-3 kld--background-color-secondary-dark-2">
-                <div
-                    class="kld--container kld--justify-flex-end kld--padding-top-6 kld--padding-bottom-6 --paragraph-container">
-                    <div class="kld--text-color-white">
-                        <span class="kld--font-size-large">Throughout this portfolio, </span> you'll find various
-                        projects demonstrating my passion for technology and growth during the ITE 4 course. Each
-                        project is
-                        a testament to the milestones in my learning journey, showcasing my dedication and commitment to
-                        excellence. From coding
-                        challenges to multimedia presentations, I've invested my best efforts into every endeavor.
-                    </div>
-                    <div class="kld--text-color-white kld--margin-top-2">
-                        So sit back, relax, and dive into the fruits of my hard work and dedication. I can't wait to
-                        share this journey with you
-                        and show you what I've accomplished. Let's embark on this adventure together!
-                    </div>
-                </div>
-            </section>
-            <section class="kld--padding-bottom-3 kld--padding-top-3" style="background-color: #e8f2fd;">
-                <div class="kld--container">
-                    <h1 class="kld--text-align-center">Below are some of my projects!</>
-                        <section class="kld--display-flex">
-                            <div class="kld--display-flex kld--align-items-center button-container">
-                                <button
-                                    class="kld--text-align-center prev-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
-                                    <p class="kld--text-align-center kld--display-flex kld--justify-center">&lt;</p>
-                                </button>
+                </header>
+                <ul class="kld--display-flex kld--flex-direction-column kld--align-items-center">
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="./index.html" class="text-color-white  text-hover-yellow">Home</a>
+                    </li>
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="./exercises.html" class="text-color-white  text-hover-yellow">Exercises</a>
+                    </li>
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="./exercise-10-designs.html" class="text-color-white  text-hover-yellow">Designs</a>
+                    </li>
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="./skills.html" class="text-color-white  text-hover-yellow">Skills</a>
+                    </li>
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="https://github.com/Monochromat1c" class="text-color-white  text-hover-yellow">Github</a>
+                    </li>
+                    <li class="mobile-li kld--padding-2 min-width-percent-100">
+                        <a href="./contact-me.html" class="text-color-white  text-hover-yellow">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content kld--min-width-dvw-100 kld--max-width-dvw-100">
+                <div class="site">
+                    <header
+                        class="navbar background-color-primary-light-3 display-flex kld--flex-direction-row kld--justify-space-between">
+                        <a href="./index.html">
+                            <h1 class="site-title text-color-white">
+                                DLR❣️
+                            </h1>
+                        </a>
+                        <ul class="display-flex text-color-white links-center">
+                            <li><a href="./index.html"
+                                    class="text-color-white padding-right-half padding-left-half text-hover-yellow">Home</a>
+                            </li>|
+                            <li><a href="./exercises.html"
+                                    class="text-color-white padding-right-half padding-left-half text-hover-yellow">Exercises</a>
+                            </li>|
+                            <li>
+                                <a href="./exercise-10-designs.html"
+                                    class="text-color-white padding-right-half padding-left-half text-hover-yellow">Designs</a>
+                            </li>|
+                            <li>
+                                <a href="./skills.html"
+                                    class="text-color-white padding-right-half padding-left-half text-hover-yellow">Skills</a>
+                            </li>
+                        </ul>
+                        <ul class="display-flex kld--align-items-centertext-color-white ">
+                            <div class="display-flex kld--align-items-center links-end">
+                                <li><a href="https://github.com/Monochromat1c"
+                                        class="github-link text-color-white padding-right-half padding-left-half text-hover-yellow">Github</a>
+                                </li>
+                                <div class="divider">|</div>
+                                <li><a href="./contact-me.html"
+                                        class="contact-link text-color-white padding-right-half padding-left-half text-hover-yellow kld--button-primary kld--padding-button-2 kld--border-radius-large">Contact
+                                        Me</a>
+                                </li>
                             </div>
-                            <div class="kld--card kld--display-flex min-height-dvh-50 --image-slider">
-                                <img src="./assets/img/Screenshot_3.svg" alt="image" srcset="">
-                                <img src="./assets/img/Screenshot_4.svg" alt="image" srcset="">
-                                <img src="./assets/img/Screenshot_5.svg" alt="image" srcset="">
-                                <img src="./assets/img/Screenshot_6.svg" alt="image" srcset="">
+                            <input type="checkbox" name="check" id="check" class="checkbox display-none">
+                            <label for="check" class="margin-right-1" class="hamburger">
+                                <i class="fa fa-bars border-radius-full kld--text-color-white font-size-large hamburger"></i>
+                            </label>
+                        </ul>
+                    </header>
+                    <main class="margin-top-2">
+                        <section class="container">
+                            <div
+                                class="welcome-message display-flex margin-auto margin-bottom-3 max-width-dvw-70 flex-direction-column">
+                                <h1><span class="text-color-primary-dark-3">Welcome</span><span
+                                        class="kld--text-color-error">!</span>
+                                </h1>
+                                <p>
+                                    <span class="padding-left-3">Hey there,</span> and welcome to my portfolio! I'm so
+                                    excited to
+                                    share with you not only my projects from our ITE 4 course, but also a piece of who I am.
+                                    I've
+                                    designed this website to be a breeze to navigate, so you'll find all my work neatly
+                                    organized in
+                                    the navigation bar, accessible from anywhere and at any time.
+                                </p>
                             </div>
-                            <div class="kld--display-flex kld--align-items-center button-container">
-                                <button
-                                    class="kld--text-align-center next-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
-                                    <p class="kld--text-align-center kld--display-flex kld--justify-center">&gt;</p>
-                                </button>
+                            <section class="kld--margin-top-2 portfolio display-flex justify-center">
+                                <div
+                                    class=" porfolio-card-container card kld--background-color-primary-light-2 kld--min-width-percent-100 display-flex border-radius-large">
+                                    <img class="border-radius-full img" src="./assets/img/charles-manuel-diestro.png"
+                                        alt="my-portrait">
+                                    <div class="kld--display-flex kld--flex-direction-column kld--justify-center">
+                                        <h1 class="kld--text-color-white name">Charles Manuel Diestro</h1>
+                                        <h3 class="kld--text-color-white portfolio-description">
+                                            Rising third year student at Filamer Christian University taking up
+                                            Bachelor of Science in Information Technology, with career interests in
+                                            website development.
+                                        </h3>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                        <section class="kld--margin-top-3 kld--background-color-secondary-dark-2">
+                            <div
+                                class="kld--container kld--justify-flex-end kld--padding-top-6 kld--padding-bottom-6 --paragraph-container">
+                                <div class="kld--text-color-white">
+                                    <span class="kld--font-size-large">Throughout this portfolio, </span> you'll find
+                                    various
+                                    projects demonstrating my passion for technology and growth during the ITE 4 course.
+                                    Each
+                                    project is
+                                    a testament to the milestones in my learning journey, showcasing my dedication and
+                                    commitment to
+                                    excellence. From coding
+                                    challenges to multimedia presentations, I've invested my best efforts into every
+                                    endeavor.
+                                </div>
+                                <div class="kld--text-color-white kld--margin-top-2">
+                                    So sit back, relax, and dive into the fruits of my hard work and dedication. I can't
+                                    wait to
+                                    share this journey with you
+                                    and show you what I've accomplished. Let's embark on this adventure together!
+                                </div>
                             </div>
                         </section>
+                        <section class="kld--padding-bottom-3 kld--padding-top-3" style="background-color: #e8f2fd;">
+                            <div class="kld--container">
+                                <h1 class="kld--text-align-center">Below are some of my projects!</>
+                                    <section class="kld--display-flex --image-slider-pc">
+                                        <div class="kld--display-flex kld--align-items-center button-container">
+                                            <button
+                                                class="kld--text-align-center prev-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                                <p class="kld--text-align-center kld--display-flex kld--justify-center">&lt;
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="kld--card kld--display-flex min-height-dvh-50 --image-slider">
+                                            <img src="./assets/img/Screenshot_3.png" alt="image" srcset="">
+                                            <img src="./assets/img/Screenshot_4.png" alt="image" srcset="">
+                                            <img src="./assets/img/Screenshot_5.png" alt="image" srcset="">
+                                            <img src="./assets/img/Screenshot_6.png" alt="image" srcset="">
+                                        </div>
+                                        <div class="kld--display-flex kld--align-items-center button-container">
+                                            <button
+                                                class="kld--text-align-center next-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                                <p class="kld--text-align-center kld--display-flex kld--justify-center">&gt;
+                                                </p>
+                                            </button>
+                                        </div>
+                                    </section>
+                                    <section class="kld--display-flex --image-slider-mobile">
+                                        <div class="kld--display-flex kld--align-items-center button-container">
+                                            <button
+                                                class="kld--text-align-center prev-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                                <p class="kld--text-align-center kld--display-flex kld--justify-center">&lt;
+                                                </p>
+                                            </button>
+                                        </div>
+                                        <div class="kld--card kld--display-flex min-height-dvh-40 --image-slider">
+                                            <img src="./assets/img/mobile-1.png" alt="image" srcset="">
+                                            <img src="./assets/img/mobile-2.png" alt="image" srcset="">
+                                            <img src="./assets/img/mobile-3.png" alt="image" srcset="">
+                                            <img src="./assets/img/mobile-4.png" alt="image" srcset="">
+                                        </div>
+                                        <div class="kld--display-flex kld--align-items-center button-container">
+                                            <button
+                                                class="kld--text-align-center next-btn kld--button-secondary kld--padding-button-2 kld--border-radius-full kld--text-color-white">
+                                                <p class="kld--text-align-center kld--display-flex kld--justify-center">&gt;
+                                                </p>
+                                            </button>
+                                        </div>
+                                    </section>
+                            </div>
+                        </section>
+                    </main>
+                    <footer class="kld--background-color-indigo-light-5">
+                        <section class="kld--container kld--padding-4">
+                            <div class="kld--margin-bottom-3">
+                                <h3 class="kld--text-color-white kld--margin-bottom-1">© 2024 Charles Manuel Diestro</h3>
+                                <p class="kld--text-color-white">All rights reserved. The content, designs, and
+                                    intellectual
+                                    property
+                                    displayed on this
+                                    website are exclusive to Charles Manuel Diestro and protected under international
+                                    copyright
+                                    laws.
+                                    Any unauthorized use,
+                                    reproduction, or distribution of the content is strictly prohibited. For inquiries or
+                                    permission
+                                    to
+                                    use, please contact
+                                    the site administrator.
+                                </p>
+                            </div>
+                            <div class="">
+                                <p class="kld--text-color-white kld--margin-bottom-1" style="font-weight: bold;">If you have
+                                    any
+                                    questions, you can contact me at my socials:</p>
+                                <div class="kld--text-color-white kld--margin-bottom-half">
+                                    <i class="fa-brands fa-square-facebook kld--padding-right-1"></i>
+                                    <a href="javascript:void(0)"
+                                        class="kld--text-color-white kld--text-hover-info-light-4">Charles
+                                        Manuel Diestro
+                                    </a>
+                                </div>
+                                <div class="kld--text-color-white kld--margin-bottom-half">
+                                    <i class="fa-brands fa-instagram kld--padding-right-1"></i>
+                                    <a href="javascript:void(0)"
+                                        class="kld--text-color-white kld--text-hover-info-light-4">@Charlesss
+                                    </a>
+                                </div>
+                                <div class="kld--text-color-white kld--margin-bottom-half">
+                                    <i class="fa-brands fa-linkedin kld--padding-right-1"></i>
+                                    <a href="javascript:void(0)"
+                                        class="kld--text-color-white kld--text-hover-info-light-4">Charles
+                                        Manuel Diestro
+                                    </a>
+                                </div>
+                                <div class="kld--text-color-white kld--margin-bottom-1">
+                                    <i class="fa-solid fa-envelope kld--padding-right-1"></i>
+                                    <a href="javascript:void(0)"
+                                        class="kld--text-color-white kld--text-hover-info-light-4">charlesdiestro6@gmail.com
+                                    </a>
+                                </div>
+                                <p class="kld--text-color-white">Or you can click the link on the sidebar and send me a message
+                                    through a form!</p>
+                            </div>
+                        </section>
+                    </footer>
                 </div>
-            </section>
-        </main>
-        <footer class="kld--background-color-indigo-light-5">
-            <section class="kld--container kld--padding-2">
-                <h2 class="kld--text-color-white">dsf</h2>
-            </section>
-        </footer>
-    </div>
+            </div>
+        </div>
+    </section>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const prevBtn = document.querySelector(".prev-btn");
-            const nextBtn = document.querySelector(".next-btn");
-            const slider = document.querySelector(".--image-slider");
-            const images = document.querySelectorAll(".--image-slider img");
+            const pcPrevBtn = document.querySelector(".--image-slider-pc .prev-btn");
+            const pcNextBtn = document.querySelector(".--image-slider-pc .next-btn");
+            const pcSlider = document.querySelector(".--image-slider-pc .--image-slider");
+            const pcImages = document.querySelectorAll(".--image-slider-pc .--image-slider img");
 
-            let currentIndex = 0;
+            const mobilePrevBtn = document.querySelector(".--image-slider-mobile .prev-btn");
+            const mobileNextBtn = document.querySelector(".--image-slider-mobile .next-btn");
+            const mobileSlider = document.querySelector(".--image-slider-mobile .--image-slider");
+            const mobileImages = document.querySelectorAll(".--image-slider-mobile .--image-slider img");
 
-            // Show the first image when the page loads
-            scrollToIndex(currentIndex);
+            // Initialize currentIndex for both desktop and mobile sliders
+            let pcCurrentIndex = 0;
+            let mobileCurrentIndex = 0;
 
-            prevBtn.addEventListener("click", function () {
-                currentIndex = (currentIndex - 1 + images.length) % images.length;
-                scrollToIndex(currentIndex);
+            // Show the first image when the page loads for both sliders
+            scrollToIndex(pcSlider, pcImages, pcCurrentIndex);
+            scrollToIndex(mobileSlider, mobileImages, mobileCurrentIndex);
+
+            // Event listeners for desktop slider
+            pcPrevBtn.addEventListener("click", function () {
+                pcCurrentIndex = (pcCurrentIndex - 1 + pcImages.length) % pcImages.length;
+                scrollToIndex(pcSlider, pcImages, pcCurrentIndex);
             });
 
-            nextBtn.addEventListener("click", function () {
-                currentIndex = (currentIndex + 1) % images.length;
-                scrollToIndex(currentIndex);
+            pcNextBtn.addEventListener("click", function () {
+                pcCurrentIndex = (pcCurrentIndex + 1) % pcImages.length;
+                scrollToIndex(pcSlider, pcImages, pcCurrentIndex);
             });
 
-            function scrollToIndex(index) {
+            // Event listeners for mobile slider
+            mobilePrevBtn.addEventListener("click", function () {
+                mobileCurrentIndex = (mobileCurrentIndex - 1 + mobileImages.length) % mobileImages.length;
+                scrollToIndex(mobileSlider, mobileImages, mobileCurrentIndex);
+            });
+
+            mobileNextBtn.addEventListener("click", function () {
+                mobileCurrentIndex = (mobileCurrentIndex + 1) % mobileImages.length;
+                scrollToIndex(mobileSlider, mobileImages, mobileCurrentIndex);
+            });
+
+            function scrollToIndex(slider, images, index) {
                 const scrollPosition = images[index].offsetLeft - slider.offsetLeft;
                 slider.scrollTo({
                     left: scrollPosition,
@@ -155,6 +309,28 @@
             }
         });
 
+        document.addEventListener("DOMContentLoaded", function () {
+            const checkbox = document.getElementById('check');
+            const sidebar = document.getElementById('sidebar');
+            const content = document.querySelector('.content');
+            const overlay = document.createElement('div');
+            overlay.classList.add('overlay');
+
+            checkbox.addEventListener('change', function () {
+                if (this.checked) {
+                    sidebar.classList.add('show-sidebar');
+                    overlay.style.display = 'block';
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    sidebar.classList.remove('show-sidebar');
+                    overlay.style.display = 'none';
+                    document.body.style.overflow = '';
+                }
+            });
+
+            document.body.appendChild(overlay);
+
+        });
     </script>
 </body>
 
