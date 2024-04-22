@@ -194,6 +194,11 @@ textarea {
     }
 }
 
+.prev-btn p,
+.next-btn p {
+    font-size: 2.7rem;
+}
+
 .slider-container {
     position: relative;
 }
@@ -203,7 +208,7 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    box-shadow: -1px 3px 9px #171c1f;;
+    box-shadow: -1px 3px 9px #171c1f;
 }
 
 .prev-btn-mobile {
@@ -256,8 +261,8 @@ textarea {
     padding-left: 5rem;
 }
 
-.submit-button{
-    @media (max-width: 500px){
+.submit-button {
+    @media (max-width: 500px) {
         min-width: 100% !important;
         text-align: center !important;
     }
