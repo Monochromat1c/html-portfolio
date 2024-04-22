@@ -3286,6 +3286,10 @@ img {
   transition: all 0.3s ease;
 }
 
+.kld--button-hover {
+  transform: scale(1.03);
+}
+
 .kld--button-primary {
   text-decoration: none;
   cursor: pointer;
@@ -3296,7 +3300,6 @@ img {
 }
 .kld--button-primary:hover {
   background-color: #547dd5;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-primary {
@@ -3309,7 +3312,6 @@ img {
 }
 .kld--button-outline-primary:hover {
   background-color: #4371d1;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-primary {
@@ -3324,7 +3326,6 @@ img {
 .kld--button-complement-primary:hover {
   color: #3162ca;
   background-color: #ead6aa;
-  transform: scale(1.03);
 }
 
 .kld--button-secondary {
@@ -3349,7 +3350,6 @@ img {
 }
 .kld--button-outline-secondary:hover {
   background-color: #2db483;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-secondary {
@@ -3364,7 +3364,6 @@ img {
 .kld--button-complement-secondary:hover {
   color: #28a074;
   background-color: #e081a4;
-  transform: scale(1.03);
 }
 
 .kld--button-error {
@@ -3377,7 +3376,6 @@ img {
 }
 .kld--button-error:hover {
   background-color: #d35f63;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-error {
@@ -3390,7 +3388,6 @@ img {
 }
 .kld--button-outline-error:hover {
   background-color: #cf4f53;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-error {
@@ -3405,7 +3402,6 @@ img {
 .kld--button-complement-error:hover {
   color: #c93b40;
   background-color: #b3eae8;
-  transform: scale(1.03);
 }
 
 .kld--button-info {
@@ -3418,7 +3414,6 @@ img {
 }
 .kld--button-info:hover {
   background-color: #f8cf48;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-info {
@@ -3431,7 +3426,6 @@ img {
 }
 .kld--button-outline-info:hover {
   background-color: #f7c935;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-info {
@@ -3446,7 +3440,6 @@ img {
 .kld--button-complement-info:hover {
   color: #f6c31c;
   background-color: #afc1fc;
-  transform: scale(1.03);
 }
 
 .kld--button-blue {
@@ -3459,7 +3452,6 @@ img {
 }
 .kld--button-blue:hover {
   background-color: #4242eb;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-blue {
@@ -3472,7 +3464,6 @@ img {
 }
 .kld--button-outline-blue:hover {
   background-color: #3030e9;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-blue {
@@ -3487,7 +3478,6 @@ img {
 .kld--button-complement-blue:hover {
   color: #1919e6;
   background-color: #f5f5a3;
-  transform: scale(1.03);
 }
 
 .kld--button-red {
@@ -3500,7 +3490,6 @@ img {
 }
 .kld--button-red:hover {
   background-color: #eb4242;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-red {
@@ -3513,7 +3502,6 @@ img {
 }
 .kld--button-outline-red:hover {
   background-color: #e93030;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-red {
@@ -3528,7 +3516,6 @@ img {
 .kld--button-complement-red:hover {
   color: #e61919;
   background-color: #a3f5f5;
-  transform: scale(1.03);
 }
 
 .kld--button-yellow {
@@ -3541,7 +3528,6 @@ img {
 }
 .kld--button-yellow:hover {
   background-color: #ebeb42;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-yellow {
@@ -3554,7 +3540,6 @@ img {
 }
 .kld--button-outline-yellow:hover {
   background-color: #e9e930;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-yellow {
@@ -3569,7 +3554,6 @@ img {
 .kld--button-complement-yellow:hover {
   color: #e6e619;
   background-color: #a3a3f5;
-  transform: scale(1.03);
 }
 
 .kld--button-green {
@@ -3582,7 +3566,6 @@ img {
 }
 .kld--button-green:hover {
   background-color: #42eb59;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-green {
@@ -3595,7 +3578,6 @@ img {
 }
 .kld--button-outline-green:hover {
   background-color: #30e949;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-green {
@@ -3610,7 +3592,6 @@ img {
 .kld--button-complement-green:hover {
   color: #19e635;
   background-color: #f5a3ea;
-  transform: scale(1.03);
 }
 
 .kld--button-orange {
@@ -3623,7 +3604,6 @@ img {
 }
 .kld--button-orange:hover {
   background-color: #ffb62e;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-orange {
@@ -3636,7 +3616,6 @@ img {
 }
 .kld--button-outline-orange:hover {
   background-color: #ffaf1a;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-orange {
@@ -3651,7 +3630,6 @@ img {
 .kld--button-complement-orange:hover {
   color: #ffa600;
   background-color: #99bdff;
-  transform: scale(1.03);
 }
 
 .kld--button-purple {
@@ -3664,7 +3642,6 @@ img {
 }
 .kld--button-purple:hover {
   background-color: #ab2eff;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-purple {
@@ -3677,7 +3654,6 @@ img {
 }
 .kld--button-outline-purple:hover {
   background-color: #a31aff;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-purple {
@@ -3692,7 +3668,6 @@ img {
 .kld--button-complement-purple:hover {
   color: #9900ff;
   background-color: #c2ff99;
-  transform: scale(1.03);
 }
 
 .kld--button-gray {
@@ -3705,7 +3680,6 @@ img {
 }
 .kld--button-gray:hover {
   background-color: #979797;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-gray {
@@ -3718,7 +3692,6 @@ img {
 }
 .kld--button-outline-gray:hover {
   background-color: #8d8d8d;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-gray {
@@ -3733,7 +3706,6 @@ img {
 .kld--button-complement-gray:hover {
   color: #808080;
   background-color: #cdcdcd;
-  transform: scale(1.03);
 }
 
 .kld--button-indigo {
@@ -3746,7 +3718,6 @@ img {
 }
 .kld--button-indigo:hover {
   background-color: #6500b0;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-indigo {
@@ -3759,7 +3730,6 @@ img {
 }
 .kld--button-outline-indigo:hover {
   background-color: #5a009c;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-indigo {
@@ -3774,7 +3744,6 @@ img {
 .kld--button-complement-indigo:hover {
   color: indigo;
   background-color: #7cff1c;
-  transform: scale(1.03);
 }
 
 .kld--button-black {
@@ -3787,7 +3756,6 @@ img {
 }
 .kld--button-black:hover {
   background-color: #171717;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-black {
@@ -3800,7 +3768,6 @@ img {
 }
 .kld--button-outline-black:hover {
   background-color: #0d0d0d;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-black {
@@ -3815,7 +3782,6 @@ img {
 .kld--button-complement-black:hover {
   color: black;
   background-color: #4d4d4d;
-  transform: scale(1.03);
 }
 
 .kld--button-white {
@@ -3828,7 +3794,6 @@ img {
 }
 .kld--button-white:hover {
   background-color: white;
-  transform: scale(1.03);
 }
 
 .kld--button-outline-white {
@@ -3841,7 +3806,6 @@ img {
 }
 .kld--button-outline-white:hover {
   background-color: white;
-  transform: scale(1.03);
 }
 
 .kld--button-complement-white {
@@ -3856,7 +3820,6 @@ img {
 .kld--button-complement-white:hover {
   color: white;
   background-color: white;
-  transform: scale(1.03);
 }
 
 .kld--navbar .kld--container, .kld--navbar-background-color-white .kld--container, .kld--navbar-background-color-black .kld--container, .kld--navbar-background-color-indigo .kld--container, .kld--navbar-background-color-gray .kld--container, .kld--navbar-background-color-purple .kld--container, .kld--navbar-background-color-orange .kld--container, .kld--navbar-background-color-green .kld--container, .kld--navbar-background-color-yellow .kld--container, .kld--navbar-background-color-red .kld--container, .kld--navbar-background-color-blue .kld--container, .kld--navbar-background-color-info .kld--container, .kld--navbar-background-color-error .kld--container, .kld--navbar-background-color-secondary .kld--container, .kld--navbar-background-color-primary .kld--container, .kld--navbar, .kld--navbar-background-color-white, .kld--navbar-background-color-black, .kld--navbar-background-color-indigo, .kld--navbar-background-color-gray, .kld--navbar-background-color-purple, .kld--navbar-background-color-orange, .kld--navbar-background-color-green, .kld--navbar-background-color-yellow, .kld--navbar-background-color-red, .kld--navbar-background-color-blue, .kld--navbar-background-color-info, .kld--navbar-background-color-error, .kld--navbar-background-color-secondary, .kld--navbar-background-color-primary {
@@ -5071,17 +5034,4 @@ img {
 
 .kld--float-none {
   float: none;
-}
-
-.list {
-    list-style: decimal;
-}
-
-.list-ul {
-    list-style: disc;
-}
-
-*:not(ol):not(ul):not(li){
-    margin: 0;
-    padding: 0;
 }

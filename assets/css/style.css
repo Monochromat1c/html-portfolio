@@ -255,3 +255,10 @@ textarea {
 .padding3 {
     padding-left: 5rem;
 }
+
+.submit-button{
+    @media (max-width: 500px){
+        min-width: 100% !important;
+        text-align: center !important;
+    }
+}
