@@ -16,21 +16,6 @@
 
 <body>
     <section class="body">
-        <style>
-            .loader {
-                position: fixed;
-                background-color: #131316;
-                opacity: 1;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                left: 0;
-                z-index: 10;
-            }
-        </style>
-        <div class="loader kld--display-flex kld--justify-center kld--align-items-center">
-            <h1 class="kld--text-color-white">The website is loading...</h1>
-        </div>
         <div class="kld--display-flex  kld--max-width-dvw-100">
             <div id="sidebar" class="sidebar kld--min-width-dvw-100 kld--min-height-dvh-100"
                 style="background-color: #1c1929;">
@@ -372,46 +357,7 @@
             document.body.appendChild(overlay);
 
         });
-
-        window.addEventListener("load", function () {
-                // Hide loader when all content, including images, has loaded
-                var loader = document.querySelector(".loader");
-                loader.style.opacity = 0;
-                loader.style.visibility = "hidden";
-            });
     </script>
 </body>
-<style>
-    .loader {
-        -webkit-animation: load-out 1s;
-        animation: load-out 1s;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-    }
-
-    @-webkit-keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
-
-    @keyframes load-out {
-        from {
-            top: 0;
-            opacity: 1;
-        }
-
-        to {
-            top: 100%;
-            opacity: 0;
-        }
-    }
-</style>
 
 </html>
