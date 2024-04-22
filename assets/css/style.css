@@ -110,7 +110,8 @@ footer {
         display: block !important;
     }
 
-    .links-center, .links-end {
+    .links-center,
+    .links-end {
         display: none !important;
     }
 }
@@ -193,7 +194,27 @@ textarea {
     }
 }
 
-.mobile-li > a{
+.slider-container {
+    position: relative;
+}
+
+.btn-mobile {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    box-shadow: -1px 3px 9px #171c1f;;
+}
+
+.prev-btn-mobile {
+    left: 0;
+}
+
+.next-btn-mobile {
+    right: 0;
+}
+
+.mobile-li > a {
     display: flex !important;
     justify-content: center;
 }
