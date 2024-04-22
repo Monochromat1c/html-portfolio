@@ -372,6 +372,13 @@
             document.body.appendChild(overlay);
 
         });
+
+        window.addEventListener("load", function () {
+                // Hide loader when all content, including images, has loaded
+                var loader = document.querySelector(".loader");
+                loader.style.opacity = 0;
+                loader.style.visibility = "hidden";
+            });
     </script>
 </body>
 <style>
